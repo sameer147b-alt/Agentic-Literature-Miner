@@ -1,0 +1,67 @@
+[
+  {
+    "drug": "PDE5Is",
+    "target_disease": "Alzheimer's disease",
+    "shared_pathways": [
+      "Disease modification"
+    ],
+    "mechanism_of_action": "Repurposing of Phosphodiesterase-5 Inhibitors (PDE5Is) is being investigated as a strategy to develop new disease-modifying therapies for Alzheimer's disease. This approach leverages established safety profiles of existing compounds.",
+    "confidence_score": 95,
+    "reasoning_trace": "The literature explicitly states that 'repurposing PDE5Is may develop new disease-modifying therapies for Alzheimer's, making clinical investigation crucial' [41433006]. This directly identifies PDE5Is as a high-confidence drug repurposing candidate for AD.",
+    "uniprot_validation": {
+      "confirmed": false,
+      "status": "⚠️ Review Required",
+      "evidence_link": "https://www.uniprot.org/uniprotkb?query=PDE5Is AND Disease modification"
+    },
+    "final_evidence_score": 0.57
+  },
+  {
+    "drug": "Antioxidants",
+    "target_disease": "Alzheimer's disease",
+    "shared_pathways": [
+      "Oxidative stress reduction"
+    ],
+    "mechanism_of_action": "Alzheimer's disease is characterized by progressive oxidative stress. Repurposing clinically approved compounds that mitigate oxidative stress could offer new disease-modifying strategies to address this core pathological feature.",
+    "confidence_score": 80,
+    "reasoning_trace": "The text identifies 'progressive oxidative stress' as a key characteristic of AD [41339080] and emphasizes the need for 'new disease-modifying strategies' through 'Drug repurposing' [41339080]. While no specific antioxidant drug is named, the underlying pathological pathway points to this class of compounds as potential repurposing candidates.",
+    "uniprot_validation": {
+      "confirmed": false,
+      "status": "⚠️ Review Required",
+      "evidence_link": "https://www.uniprot.org/uniprotkb?query=Antioxidants AND Oxidative stress reduction"
+    },
+    "final_evidence_score": 0.48
+  },
+  {
+    "drug": "Anti-inflammatories",
+    "target_disease": "Alzheimer's disease",
+    "shared_pathways": [
+      "Neuroinflammation modulation"
+    ],
+    "mechanism_of_action": "Alzheimer's disease is characterized by neuroinflammation, and maladaptive inflammation is sustained by systemic metabolic stressors. Repurposing existing anti-inflammatory drugs could target this key pathological feature to modify disease progression.",
+    "confidence_score": 80,
+    "reasoning_trace": "The literature highlights 'neuroinflammation' as a characteristic of AD [41339080] and mentions 'maladaptive inflammation' linked to immunometabolism [41688855]. The overall context promotes 'drug repurposing' for 'new disease-modifying strategies' [41339080]. This strongly implies anti-inflammatory agents as potential repurposing candidates, even though no specific drug is named.",
+    "uniprot_validation": {
+      "confirmed": false,
+      "status": "⚠️ Review Required",
+      "evidence_link": "https://www.uniprot.org/uniprotkb?query=Anti-inflammatories AND Neuroinflammation modulation"
+    },
+    "final_evidence_score": 0.48
+  },
+  {
+    "drug": "Metabolic Modulators",
+    "target_disease": "Alzheimer's disease",
+    "shared_pathways": [
+      "Immunometabolism regulation",
+      "Insulin sensitivity"
+    ],
+    "mechanism_of_action": "AD is increasingly recognized as a disorder of dysregulated immunometabolism, with systemic metabolic stressors such as insulin resistance, dyslipidaemia, and obesity contributing to maladaptive inflammation. Repurposing drugs that modulate these metabolic pathways could offer therapeutic benefits by reprograming energy pathways.",
+    "confidence_score": 85,
+    "reasoning_trace": "The text explicitly links 'dysregulated immunometabolism', 'insulin resistance, dyslipidaemia, and obesity' to AD pathogenesis, impacting brain innate immune cells [41688855]. The need for 'broader, multi-targeted approaches' [41687786] and 'drug repurposing' [41339080] for AD supports the consideration of metabolic modulators as repurposing candidates, targeting these identified metabolic stressors.",
+    "uniprot_validation": {
+      "confirmed": true,
+      "status": "✅ Confirmed",
+      "evidence_link": "https://www.uniprot.org/uniprotkb?query=Metabolic Modulators AND Immunometabolism regulation OR Insulin sensitivity"
+    },
+    "final_evidence_score": 0.91
+  }
+]
