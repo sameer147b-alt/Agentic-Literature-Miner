@@ -1,0 +1,95 @@
+[
+  {
+    "pmid": "41172231",
+    "title": "Metformin induces ferroptosis associated with lipidomic remodeling in AML.",
+    "abstract": "Metabolic reprogramming is a hallmark of cancer and is essential for sustaining leukemogenesis. In acute myeloid leukemia (AML), a high dependency on oxidative phosphorylation (OXPHOS) is often linked to poor outcomes, and its inhibition has shown to be highly effective. However, most OXPHOS inhibitors are not clinically translatable because of significant side effects. Thus, repurposing safe US Food and Drug Administration-approved drugs that can target OXPHOS is of great interest. Here, we evaluated metformin, an antidiabetic drug that inhibits OXPHOS, in a genetically diverse panel of primary AML samples to identify metabolic profiles that can be used to predict treatment susceptibility. Using label-free quantitative proteome analysis on sorted CD34+/CD117+ AML cells, we performed single-sample gene set enrichment analysis focused on metabolic terms and correlated enrichment scores with metformin sensitivity, followed by functional studies. Ex vivo treatment of AML samples with metformin showed a significant increase in reactive oxygen species levels and ferroptosis induction, especially in samples with disturbed lipid metabolism, such as IDH2- and FLT3-mutant AMLs. In IDH2-mutant cells, cotreatment with palmitate, a saturated fatty acid (FA), increased metformin sensitivity, which could be rescued by CD36 knockdown, rendering these cells more resistant to treatment. Lipidomic analysis revealed profound alterations upon metformin treatment, including increased production of triglycerides and polyunsaturated FAs, further supporting a metabolic shift. We observed upregulation of genes related to lipid droplet formation, including DGAT1, a key enzyme in this process. DGAT1 inhibition was strongly synergistic with metformin, whereas iron chelators acted antagonistically. Our results underscore the potential of leveraging metabolic vulnerabilities in AML to identify more effective and personalized therapeutic strategies.",
+    "authors": [
+      "Sternadt D",
+      "Pereira-Martins DA",
+      "Chatzikyriakou P",
+      "Albuquerque-Simoes L",
+      "Yang M",
+      "Silveira DRA",
+      "Wierenga ATJ",
+      "Weinhauser I",
+      "Hogeling SM",
+      "Oudejans LL",
+      "Casares Alaez P",
+      "Sarry JE",
+      "Frezza C",
+      "Huls GA",
+      "Quek L",
+      "Schuringa JJ"
+    ],
+    "date": "2026 Feb 10"
+  },
+  {
+    "pmid": "38089917",
+    "title": "Metformin: A potential adjunct for treatment of systemic mastocytosis.",
+    "abstract": "BACKGROUND: Systemic mastocytosis (SM) is a clonal disorder of mast cells in which the KIT Asp816Val mutation can be detected not only in mature mast cells but also in the hematopoietic stem cell and in non-mast cell lineages. Current treatment with tyrosine kinase inhibitors provides improved clinical responses in patients with advanced mastocytosis but no cures. Targeting of cancer stem cells (CSCs) resistant to chemotherapy and radiation therapy potentially could improve clinical outcomes in mastocytosis. In recent years, nonchemotherapeutic medications such as metformin have been repurposed for this role because of their ability to destroy CSCs from both solid tumors and leukemias and also because of their ability to act as chemosensitizers. OBJECTIVE: We sought to determine whether those patients with both type 2 diabetes mellitus (DM2) and SM who were receiving metformin, which has been reported to inhibit CSCs, experienced clinical or laboratory benefit to their SM from this agent. METHODS: Mayo Clinic databases were searched for patients with diagnoses of DM plus SM. The clinical courses of mastocytosis for patients with DM2 were compared among patients treated with metformin or by other means. Effects of metformin on human mast cell (HMC) leukemia line (HMC-1.1 and HMC-1.2) cell proliferation were tested in vitro. RESULTS: No patient treated with metformin before SM was diagnosed developed advanced forms of disease. A lower percentage of these patients had splenomegaly compared with other groups not treated with metformin, and none of these patients developed Janus kinase 2, tet methylcytosine dioxygenase 2, or serine and arginine-rich splicing factor 2 mutations. In vitro results showed that metformin inhibited the proliferation of both cell lines; HMC-1.1 cells were more sensitive to metformin. CONCLUSIONS: These preliminary findings suggest that early use of metformin to target CSCs has the possibility to complement current treatments available for SM.",
+    "authors": [
+      "Butterfield JH",
+      "Bartemes K"
+    ],
+    "date": "2024 Feb"
+  },
+  {
+    "pmid": "37364455",
+    "title": "Repurposing Metformin in hematologic tumor: State of art.",
+    "abstract": "Metformin is an ancient drug for the treatment of type 2 diabetes, and many studies now suggested that metformin can be used as an adjuvant drug in the treatment of many types of tumors. The mechanism of action of metformin for tumor treatment mainly involves: 1. activation of AMPK signaling pathway 2. inhibition of DNA damage repair in tumor cells 3. downregulation of IGF-1 expression 4. inhibition of chemoresistance and enhancement of chemotherapy sensitivity in tumor cells 5. enhancement of antitumor immunity 6. inhibition of oxidative phosphorylation (OXPHOS). Metformin also plays an important role in the treatment of hematologic tumors, especially in leukemia, lymphoma, and multiple myeloma (MM). The combination of metformin and chemotherapy enhances the efficacy of chemotherapy, and metformin reduces the progression of monoclonal gammopathy of undetermined significance (MGUS) to MM. The purpose of this review is to summarize the anticancer mechanism of metformin and the role and mechanism of action of metformin in hematologic tumors. We mainly summarize the studies related to metformin in hematologic tumors, including cellular experiments and animal experiments, as well as controlled clinical studies and clinical trials. In addition, we also focus on the possible side effects of metformin. Although a large number of preclinical and clinical studies have been performed and the role of metformin in preventing the progression of MGUS to MM has been demonstrated, metformin has not been approved for the treatment of hematologic tumors, which is related to the adverse effects of its high-dose application. Low-dose metformin reduces adverse effects and has been shown to alter the tumor microenvironment and enhance antitumor immune response, which is one of the main directions for future research.",
+    "authors": [
+      "Hu M",
+      "Chen Y",
+      "Ma T",
+      "Jing L"
+    ],
+    "date": "2023 Aug"
+  },
+  {
+    "pmid": "34042964",
+    "title": "Metformin effects on brain development following cranial irradiation in a mouse model.",
+    "abstract": "BACKGROUND: Cranial radiation therapy (CRT) is a mainstay of treatment for malignant pediatric brain tumors and high-risk leukemia. Although CRT improves survival, it has been shown to disrupt normal brain development and result in cognitive impairments in cancer survivors. Animal studies suggest that there is potential to promote brain recovery after injury using metformin. Our aim was to evaluate whether metformin can restore brain volume outcomes in a mouse model of CRT. METHODS: C57BL/6J mice were irradiated with a whole-brain radiation dose of 7 Gy during infancy. Two weeks of metformin treatment started either on the day of or 3 days after irradiation. In vivo magnetic resonance imaging was performed prior to irradiation and at 3 subsequent time points to evaluate the effects of radiation and metformin on brain development. RESULTS: Widespread volume loss in the irradiated brain appeared within 1 week of irradiation with limited subsequent recovery in volume outcomes. In many structures, metformin administration starting on the day of irradiation exacerbated radiation-induced injury, particularly in male mice. Metformin treatment starting 3 days after irradiation improved brain volume outcomes in subcortical regions, the olfactory bulbs, and structures of the brainstem and cerebellum. CONCLUSIONS: Our results show that metformin treatment has the potential to improve neuroanatomical outcomes after CRT. However, both timing of metformin administration and subject sex affect structure outcomes, and metformin may also be deleterious. Our results highlight important considerations in determining the potential benefits of metformin treatment after CRT and emphasize the need for caution in repurposing metformin in clinical studies.",
+    "authors": [
+      "Yuen N",
+      "Szulc-Lerch KU",
+      "Li YQ",
+      "Morshead CM",
+      "Mabbott DJ",
+      "Wong CS",
+      "Nieman BJ"
+    ],
+    "date": "2021 Sep 1"
+  },
+  {
+    "pmid": "29037480",
+    "title": "Linking energy sensing to suppression of JAK-STAT signalling: A potential route for repurposing AMPK activators?",
+    "abstract": "Exaggerated Janus kinase-signal transducer and activator of transcription (JAK-STAT) signalling is key to the pathogenesis of pro-inflammatory disorders, such as rheumatoid arthritis and cardiovascular diseases. Mutational activation of JAKs is also responsible for several haematological malignancies, including myeloproliferative neoplasms and acute lymphoblastic leukaemia. Accumulating evidence links adenosine 5'-monophosphate (AMP)-activated protein kinase (AMPK), an energy sensor and regulator of organismal and cellular metabolism, with the suppression of immune and inflammatory processes. Recent studies have shown that activation of AMPK can limit JAK-STAT-dependent signalling pathways via several mechanisms. These novel findings support AMPK activation as a strategy for management of an array of disorders characterised by hyper-activation of the JAK-STAT pathway. This review discusses the pivotal role of JAK-STAT signalling in a range of disorders and how both established clinically used and novel AMPK activators might be used to treat these conditions.",
+    "authors": [
+      "Speirs C",
+      "Williams JJL",
+      "Riches K",
+      "Salt IP",
+      "Palmer TM"
+    ],
+    "date": "2018 Feb"
+  },
+  {
+    "pmid": "25542900",
+    "title": "Targeting the metabolic plasticity of multiple myeloma with FDA-approved ritonavir and metformin.",
+    "abstract": "PURPOSE: We have previously demonstrated that ritonavir targeting of glycolysis is growth inhibitory and cytotoxic in a subset of multiple myeloma cells. In this study, our objective was to investigate the metabolic basis of resistance to ritonavir and to determine the utility of cotreatment with the mitochondrial complex I inhibitor metformin to target compensatory metabolism. EXPERIMENTAL DESIGN: We determined combination indices for ritonavir and metformin, impact on myeloma cell lines, patient samples, and myeloma xenograft growth. Additional evaluation in breast, melanoma, and ovarian cancer cell lines was also performed. Signaling connected to suppression of the prosurvival BCL-2 family member MCL-1 was evaluated in multiple myeloma cell lines and tumor lysates. Reliance on oxidative metabolism was determined by evaluation of oxygen consumption, and dependence on glutamine was assessed by estimation of viability upon metabolite withdrawal in the context of specific metabolic perturbations. RESULTS: Ritonavir-treated multiple myeloma cells exhibited increased reliance on glutamine metabolism. Ritonavir sensitized multiple myeloma cells to metformin, effectively eliciting cytotoxicity both in vitro and in an in vivo xenograft model of multiple myeloma and in breast, ovarian, and melanoma cancer cell lines. Ritonavir and metformin effectively suppressed AKT and mTORC1 phosphorylation and prosurvival BCL-2 family member MCL-1 expression in multiple myeloma cell lines in vitro and in vivo. CONCLUSIONS: FDA-approved ritonavir and metformin effectively target multiple myeloma cell metabolism to elicit cytotoxicity in multiple myeloma. Our studies warrant further investigation into repurposing ritonavir and metformin to target the metabolic plasticity of myeloma to more broadly target myeloma heterogeneity and prevent the reemergence of chemoresistant aggressive multiple myeloma.",
+    "authors": [
+      "Dalva-Aydemir S",
+      "Bajpai R",
+      "Martinez M",
+      "Adekola KU",
+      "Kandela I",
+      "Wei C",
+      "Singhal S",
+      "Koblinski JE",
+      "Raje NS",
+      "Rosen ST",
+      "Shanmugam M"
+    ],
+    "date": "2015 Mar 1"
+  }
+]

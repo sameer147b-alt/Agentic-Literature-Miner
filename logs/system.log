@@ -1,0 +1,651 @@
+2026-02-13 18:20:12 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:20:39 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:20:39 | INFO  | test       | hello
+2026-02-13 18:48:23 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:48:23 | INFO  | Scraper    | ============================================================
+2026-02-13 18:48:23 | INFO  | Scraper    | Scraper agent started
+2026-02-13 18:48:23 | INFO  | Scraper    | Search terms: ['metformin leukemia repurposing']
+2026-02-13 18:48:23 | INFO  | Scraper    | ============================================================
+2026-02-13 18:48:23 | INFO  | Scraper    | Searching PubMed: 'metformin leukemia repurposing' (max_results=10)
+2026-02-13 18:48:24 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.145s | 6 PMIDs
+2026-02-13 18:48:24 | INFO  | Scraper    | Total unique PMIDs collected: 6
+2026-02-13 18:48:24 | INFO  | Scraper    | Fetching abstracts for 6 PMIDs …
+2026-02-13 18:48:25 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 1.223s | 6 abstracts
+2026-02-13 18:48:25 | INFO  | Scraper    | Saved 6 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\abstracts.json
+2026-02-13 18:48:25 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\abstracts.json
+2026-02-13 18:48:25 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 18:48:53 | INFO  | System     | Logging system initialised — output → c:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:49:11 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:49:11 | INFO  | Scraper    | ============================================================
+2026-02-13 18:49:11 | INFO  | Scraper    | Scraper agent started
+2026-02-13 18:49:11 | INFO  | Scraper    | Search terms: ['metformin leukemia repurposing']
+2026-02-13 18:49:11 | INFO  | Scraper    | ============================================================
+2026-02-13 18:49:11 | INFO  | Scraper    | Searching PubMed: 'metformin leukemia repurposing' (max_results=10)
+2026-02-13 18:49:12 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.011s | 6 PMIDs
+2026-02-13 18:49:13 | INFO  | Scraper    | Total unique PMIDs collected: 6
+2026-02-13 18:49:13 | INFO  | Scraper    | Fetching abstracts for 6 PMIDs …
+2026-02-13 18:49:14 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 1.205s | 6 abstracts
+2026-02-13 18:49:14 | INFO  | Scraper    | Saved 6 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\abstracts.json
+2026-02-13 18:49:14 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\abstracts.json
+2026-02-13 18:49:14 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 18:49:50 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:49:50 | INFO  | Scraper    | ============================================================
+2026-02-13 18:49:50 | INFO  | Scraper    | Test run: metformin leukemia repurposing (max 10)
+2026-02-13 18:49:50 | INFO  | Scraper    | ============================================================
+2026-02-13 18:49:50 | INFO  | Scraper    | Searching PubMed: 'metformin leukemia repurposing' (max_results=10)
+2026-02-13 18:49:51 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.146s | 6 PMIDs
+2026-02-13 18:49:51 | INFO  | Scraper    | Fetching abstracts for 6 PMIDs …
+2026-02-13 18:49:52 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 1.213s | 6 abstracts
+2026-02-13 18:49:52 | INFO  | Scraper    | Saved 6 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 18:49:52 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 18:59:28 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 18:59:28 | INFO  | Scraper    | ============================================================
+2026-02-13 18:59:28 | INFO  | Scraper    | Test run: metformin leukemia repurposing (max 20)
+2026-02-13 18:59:28 | INFO  | Scraper    | ============================================================
+2026-02-13 18:59:28 | INFO  | Scraper    | Searching PubMed: 'metformin leukemia repurposing' (max_results=20)
+2026-02-13 18:59:29 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.987s | 6 PMIDs
+2026-02-13 18:59:29 | INFO  | Scraper    | Fetching abstracts for 6 PMIDs …
+2026-02-13 18:59:32 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 2.578s | 6 abstracts
+2026-02-13 18:59:32 | INFO  | Scraper    | Saved 6 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 18:59:32 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 19:01:03 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 19:01:03 | INFO  | Scraper    | ============================================================
+2026-02-13 19:01:03 | INFO  | Scraper    | Broad test run: 3 queries, max 20 each
+2026-02-13 19:01:03 | INFO  | Scraper    | ============================================================
+2026-02-13 19:01:03 | INFO  | Scraper    | Searching PubMed: 'metformin AND leukemia' (max_results=20)
+2026-02-13 19:01:04 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.982s | 20 PMIDs
+2026-02-13 19:01:05 | INFO  | Scraper    | Searching PubMed: 'metformin cancer repurposing' (max_results=20)
+2026-02-13 19:01:06 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.925s | 20 PMIDs
+2026-02-13 19:01:06 | INFO  | Scraper    | Searching PubMed: 'metformin drug repurposing AND hematologic' (max_results=20)
+2026-02-13 19:01:07 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.949s | 16 PMIDs
+2026-02-13 19:01:07 | INFO  | Scraper    | Total unique PMIDs after dedup: 53
+2026-02-13 19:01:07 | INFO  | Scraper    | Fetching top 20 abstracts
+2026-02-13 19:01:07 | INFO  | Scraper    | Fetching abstracts for 20 PMIDs …
+2026-02-13 19:01:09 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 1.852s | 20 abstracts
+2026-02-13 19:01:09 | INFO  | Scraper    | Saved 20 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 19:01:09 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 19:15:34 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 19:15:34 | INFO  | Indexer    | ============================================================
+2026-02-13 19:15:34 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 19:15:34 | INFO  | Indexer    | ============================================================
+2026-02-13 19:15:34 | INFO  | Indexer    | Loaded 20 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 19:15:34 | INFO  | Indexer    | Cleaning complete: 18 valid abstracts, 2 empty/skipped
+2026-02-13 19:15:34 | INFO  | Indexer    | Chunking complete: 18 docs → 81 chunks (size=500, overlap=50)
+2026-02-13 19:15:34 | INFO  | Indexer    | Initialising embedding model: models/embedding-001
+2026-02-13 19:15:34 | INFO  | Indexer    | Building FAISS index from 81 chunks …
+2026-02-13 19:17:12 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 19:17:12 | INFO  | Indexer    | ============================================================
+2026-02-13 19:17:12 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 19:17:12 | INFO  | Indexer    | ============================================================
+2026-02-13 19:17:12 | INFO  | Indexer    | Loaded 20 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 19:17:12 | INFO  | Indexer    | Cleaning complete: 18 valid abstracts, 2 empty/skipped
+2026-02-13 19:17:12 | INFO  | Indexer    | Chunking complete: 18 docs → 81 chunks (size=500, overlap=50)
+2026-02-13 19:17:12 | INFO  | Indexer    | Initialising embedding model: models/gemini-embedding-001
+2026-02-13 19:17:12 | INFO  | Indexer    | Building FAISS index from 81 chunks …
+2026-02-13 19:17:16 | INFO  | Indexer    | [INDEX] FAISS index built in 3.36s
+2026-02-13 19:17:16 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 19:17:16 | INFO  | Indexer    | ✅ Indexer verification: 81 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 19:17:16 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 19:17:16 | INFO  | Indexer    | Indexer agent finished
+2026-02-13 19:24:38 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 19:24:38 | INFO  | Reasoner   | ============================================================
+2026-02-13 19:24:38 | INFO  | Reasoner   | Strategist agent started
+2026-02-13 19:24:38 | INFO  | Reasoner   | Hypothesis target: Metformin + Leukemia
+2026-02-13 19:24:38 | INFO  | Reasoner   | ============================================================
+2026-02-13 19:24:38 | INFO  | Indexer    | Initialising embedding model: models/gemini-embedding-001
+2026-02-13 19:24:38 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 19:24:38 | INFO  | Reasoner   | Retrieving context for query: 'Metformin Leukemia repurposing mechanism'
+2026-02-13 19:24:39 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-13 19:24:39 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-13 19:24:39 | INFO  | Reasoner   | Sending reasoning request for Metformin -> Leukemia ...
+2026-02-13 19:24:54 | INFO  | Reasoner   | [REASONING] Generated hypothesis in 14.79s
+2026-02-13 19:24:54 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 19:24:54 | INFO  | Reasoner   | Strategist agent finished
+2026-02-13 19:30:10 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 19:30:10 | INFO  | Validator  | ============================================================
+2026-02-13 19:30:10 | INFO  | Validator  | Validator agent started
+2026-02-13 19:30:10 | INFO  | Validator  | ============================================================
+2026-02-13 19:30:10 | INFO  | Validator  | Verifying: Metformin → Leukemia
+2026-02-13 19:30:10 | INFO  | Validator  | Querying UniProt: (Metformin) AND ("Mitochondrial Metabolism/Oxidative Phosphorylation (OXPHOS)" OR "Cell Cycle Regulation & Apoptosis" OR "Epigenetic Regulation (DNA Methylation)") AND (organism_id:9606)
+2026-02-13 19:30:12 | INFO  | Validator  | [API] UniProt | 200 | 1.65s | 0 hits
+2026-02-13 19:30:12 | WARNING | Validator  | False Positive candidate? No UniProt support for Metformin + Pathways
+2026-02-13 19:30:12 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 19:30:12 | INFO  | Validator  | Validator agent finished
+2026-02-13 20:20:56 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:22:49 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:23:10 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:43:42 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:43:42 | INFO  | Scraper    | ============================================================
+2026-02-13 20:43:42 | INFO  | Scraper    | Scraper agent started
+2026-02-13 20:43:42 | INFO  | Scraper    | ============================================================
+2026-02-13 20:43:42 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 20:43:42 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-13 20:43:42 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-13 20:43:42 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-13 20:43:42 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-13 20:43:42 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-13 20:43:43 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.24s | 50 PMIDs
+2026-02-13 20:43:43 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-13 20:43:44 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.982s | 50 PMIDs
+2026-02-13 20:43:45 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-13 20:43:46 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.03s | 50 PMIDs
+2026-02-13 20:43:46 | INFO  | Scraper    | Total unique PMIDs collected: 141
+2026-02-13 20:43:46 | INFO  | Scraper    | Fetching abstracts for 141 PMIDs …
+2026-02-13 20:43:52 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 6.293s | 141 abstracts
+2026-02-13 20:43:52 | INFO  | Scraper    | Saved 141 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 20:43:52 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 20:43:52 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 20:53:01 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:55:44 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 20:55:44 | INFO  | Scraper    | ============================================================
+2026-02-13 20:55:44 | INFO  | Scraper    | Scraper agent started
+2026-02-13 20:55:44 | INFO  | Scraper    | ============================================================
+2026-02-13 20:55:44 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 20:55:44 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-13 20:55:44 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-13 20:55:45 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.173s | 50 PMIDs
+2026-02-13 20:55:45 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-13 20:55:46 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.024s | 50 PMIDs
+2026-02-13 20:55:47 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-13 20:55:48 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.116s | 50 PMIDs
+2026-02-13 20:55:48 | INFO  | Scraper    | Total unique PMIDs collected: 141
+2026-02-13 20:55:48 | INFO  | Scraper    | Fetching abstracts for 141 PMIDs …
+2026-02-13 20:55:54 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 6.071s | 141 abstracts
+2026-02-13 20:55:54 | INFO  | Scraper    | Saved 141 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 20:55:54 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 20:55:54 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 21:00:19 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 21:00:19 | INFO  | Scraper    | ============================================================
+2026-02-13 21:00:19 | INFO  | Scraper    | Scraper agent started
+2026-02-13 21:00:19 | INFO  | Scraper    | ============================================================
+2026-02-13 21:00:19 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 21:00:19 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-13 21:00:19 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-13 21:00:21 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.13s | 50 PMIDs
+2026-02-13 21:00:21 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-13 21:00:22 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.049s | 50 PMIDs
+2026-02-13 21:00:22 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-13 21:00:23 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.004s | 50 PMIDs
+2026-02-13 21:00:24 | INFO  | Scraper    | Total unique PMIDs collected: 141
+2026-02-13 21:00:24 | INFO  | Scraper    | Fetching abstracts for 141 PMIDs …
+2026-02-13 21:00:30 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 6.395s | 141 abstracts
+2026-02-13 21:00:30 | INFO  | Scraper    | Saved 141 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:00:30 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:00:30 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 21:11:37 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 21:11:37 | INFO  | Scraper    | ============================================================
+2026-02-13 21:11:37 | INFO  | Scraper    | Scraper agent started
+2026-02-13 21:11:37 | INFO  | Scraper    | ============================================================
+2026-02-13 21:11:37 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 21:11:37 | INFO  | Scraper    | Search terms: ['glioblastoma', 'glioblastoma repurposing', 'glioblastoma AND cancer']
+2026-02-13 21:11:37 | INFO  | Scraper    | Searching PubMed: 'glioblastoma' (max_results=50)
+2026-02-13 21:11:39 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.557s | 50 PMIDs
+2026-02-13 21:11:39 | INFO  | Scraper    | Searching PubMed: 'glioblastoma repurposing' (max_results=50)
+2026-02-13 21:11:40 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.204s | 50 PMIDs
+2026-02-13 21:11:40 | INFO  | Scraper    | Searching PubMed: 'glioblastoma AND cancer' (max_results=50)
+2026-02-13 21:11:42 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.861s | 50 PMIDs
+2026-02-13 21:11:43 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 21:11:43 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 21:11:46 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 3.293s | 109 abstracts
+2026-02-13 21:11:46 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:11:46 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:11:46 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 21:26:29 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 21:26:29 | INFO  | Scraper    | ============================================================
+2026-02-13 21:26:29 | INFO  | Scraper    | Scraper agent started
+2026-02-13 21:26:29 | INFO  | Scraper    | ============================================================
+2026-02-13 21:26:29 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 21:26:29 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-13 21:26:29 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-13 21:26:31 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.581s | 50 PMIDs
+2026-02-13 21:26:31 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-13 21:26:32 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.073s | 50 PMIDs
+2026-02-13 21:26:33 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-13 21:26:34 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.26s | 50 PMIDs
+2026-02-13 21:26:34 | INFO  | Scraper    | Total unique PMIDs collected: 141
+2026-02-13 21:26:34 | INFO  | Scraper    | Fetching abstracts for 141 PMIDs …
+2026-02-13 21:26:43 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 8.836s | 141 abstracts
+2026-02-13 21:26:43 | INFO  | Scraper    | Saved 141 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:26:43 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:26:43 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 21:36:14 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 21:36:14 | INFO  | Scraper    | ============================================================
+2026-02-13 21:36:14 | INFO  | Scraper    | Scraper agent started
+2026-02-13 21:36:14 | INFO  | Scraper    | ============================================================
+2026-02-13 21:36:14 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 21:36:14 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-13 21:36:14 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-13 21:36:15 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.015s | 50 PMIDs
+2026-02-13 21:36:15 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-13 21:36:16 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.926s | 50 PMIDs
+2026-02-13 21:36:16 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-13 21:36:17 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.984s | 50 PMIDs
+2026-02-13 21:36:18 | INFO  | Scraper    | Total unique PMIDs collected: 141
+2026-02-13 21:36:18 | INFO  | Scraper    | Fetching abstracts for 141 PMIDs …
+2026-02-13 21:36:24 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 6.495s | 141 abstracts
+2026-02-13 21:36:24 | INFO  | Scraper    | Saved 141 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:36:24 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 21:36:24 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:03:09 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:03:09 | INFO  | Scraper    | ============================================================
+2026-02-13 22:03:09 | INFO  | Scraper    | Scraper agent started
+2026-02-13 22:03:09 | INFO  | Scraper    | ============================================================
+2026-02-13 22:03:09 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 22:03:09 | INFO  | Scraper    | Search terms: ['glioblastoma', 'glioblastoma repurposing', 'glioblastoma AND cancer']
+2026-02-13 22:03:09 | INFO  | Scraper    | Searching PubMed: 'glioblastoma' (max_results=50)
+2026-02-13 22:03:10 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.64s | 50 PMIDs
+2026-02-13 22:03:11 | INFO  | Scraper    | Searching PubMed: 'glioblastoma repurposing' (max_results=50)
+2026-02-13 22:03:11 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.952s | 50 PMIDs
+2026-02-13 22:03:12 | INFO  | Scraper    | Searching PubMed: 'glioblastoma AND cancer' (max_results=50)
+2026-02-13 22:03:13 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.969s | 50 PMIDs
+2026-02-13 22:03:13 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 22:03:13 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 22:03:29 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 15.723s | 109 abstracts
+2026-02-13 22:03:29 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:03:29 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:03:29 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:04:36 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:04:36 | INFO  | Indexer    | ============================================================
+2026-02-13 22:04:36 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 22:04:36 | INFO  | Indexer    | ============================================================
+2026-02-13 22:04:36 | INFO  | Indexer    | Loaded 109 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:04:36 | INFO  | Indexer    | Cleaning complete: 103 valid abstracts, 6 empty/skipped
+2026-02-13 22:04:36 | INFO  | Indexer    | Chunking complete: 103 docs → 445 chunks (size=500, overlap=50)
+2026-02-13 22:04:36 | INFO  | Indexer    | Initialising embedding model: models/gemini-embedding-001
+2026-02-13 22:10:25 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:10:25 | INFO  | Scraper    | ============================================================
+2026-02-13 22:10:25 | INFO  | Scraper    | Scraper agent started
+2026-02-13 22:10:25 | INFO  | Scraper    | ============================================================
+2026-02-13 22:10:25 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 22:10:25 | INFO  | Scraper    | Search terms: ['Glioblastoma', 'Glioblastoma repurposing', 'Glioblastoma AND cancer']
+2026-02-13 22:10:25 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma' (max_results=50)
+2026-02-13 22:10:26 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.028s | 50 PMIDs
+2026-02-13 22:10:26 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma repurposing' (max_results=50)
+2026-02-13 22:10:27 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.916s | 50 PMIDs
+2026-02-13 22:10:27 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma AND cancer' (max_results=50)
+2026-02-13 22:10:28 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.931s | 50 PMIDs
+2026-02-13 22:10:28 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 22:10:28 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 22:10:33 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 4.653s | 109 abstracts
+2026-02-13 22:10:33 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:10:33 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:10:33 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:10:55 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:10:55 | INFO  | Indexer    | ============================================================
+2026-02-13 22:10:55 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 22:10:55 | INFO  | Indexer    | ============================================================
+2026-02-13 22:10:55 | INFO  | Indexer    | Loaded 109 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:10:55 | INFO  | Indexer    | Cleaning complete: 103 valid abstracts, 6 empty/skipped
+2026-02-13 22:10:55 | INFO  | Indexer    | Chunking complete: 103 docs → 445 chunks (size=500, overlap=50)
+2026-02-13 22:10:55 | INFO  | Indexer    | Initialising embedding model: models/gemini-embedding-001
+2026-02-13 22:10:55 | INFO  | Indexer    | Building FAISS index from 445 chunks …
+2026-02-13 22:25:43 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:25:43 | INFO  | Scraper    | ============================================================
+2026-02-13 22:25:43 | INFO  | Scraper    | Scraper agent started
+2026-02-13 22:25:43 | INFO  | Scraper    | ============================================================
+2026-02-13 22:25:43 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 22:25:43 | INFO  | Scraper    | Search terms: ['Glioblastoma', 'Glioblastoma repurposing', 'Glioblastoma AND cancer']
+2026-02-13 22:25:43 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma' (max_results=50)
+2026-02-13 22:25:44 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.001s | 50 PMIDs
+2026-02-13 22:25:45 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma repurposing' (max_results=50)
+2026-02-13 22:25:46 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.907s | 50 PMIDs
+2026-02-13 22:25:46 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma AND cancer' (max_results=50)
+2026-02-13 22:25:47 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.012s | 50 PMIDs
+2026-02-13 22:25:47 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 22:25:47 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 22:25:52 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 4.317s | 109 abstracts
+2026-02-13 22:25:52 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:25:52 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:25:52 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:26:51 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:26:51 | INFO  | Indexer    | ============================================================
+2026-02-13 22:26:51 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 22:26:51 | INFO  | Indexer    | ============================================================
+2026-02-13 22:26:52 | INFO  | Indexer    | Loaded 109 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:26:52 | INFO  | Indexer    | Cleaning complete: 103 valid abstracts, 6 empty/skipped
+2026-02-13 22:26:52 | INFO  | Indexer    | Chunking complete: 103 docs → 445 chunks (size=500, overlap=50)
+2026-02-13 22:26:52 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:26:55 | INFO  | Indexer    | Building FAISS index from 445 chunks …
+2026-02-13 22:27:17 | INFO  | Indexer    | [INDEX] FAISS index built in 22.37s
+2026-02-13 22:27:17 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:27:17 | INFO  | Indexer    | ✅ Indexer verification: 445 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:27:17 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:27:17 | INFO  | Indexer    | Indexer agent finished
+2026-02-13 22:27:36 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:27:36 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:27:36 | INFO  | Reasoner   | Strategist agent started
+2026-02-13 22:27:36 | INFO  | Reasoner   | Hypothesis target: Glioblastoma + cancer
+2026-02-13 22:27:36 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:27:36 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:27:40 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:27:40 | INFO  | Reasoner   | Retrieving context for query: 'Glioblastoma cancer repurposing mechanism'
+2026-02-13 22:27:40 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-13 22:27:40 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-13 22:27:40 | INFO  | Reasoner   | Sending reasoning request for Glioblastoma -> cancer ...
+2026-02-13 22:27:56 | INFO  | Reasoner   | [REASONING] Generated hypothesis in 16.11s
+2026-02-13 22:27:56 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:27:56 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:27:56 | INFO  | Reasoner   | Strategist agent finished
+2026-02-13 22:27:58 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:27:58 | INFO  | Validator  | ============================================================
+2026-02-13 22:27:58 | INFO  | Validator  | Validator agent started
+2026-02-13 22:27:58 | INFO  | Validator  | ============================================================
+2026-02-13 22:27:58 | INFO  | Validator  | Verifying: Glioblastoma → cancer
+2026-02-13 22:27:58 | INFO  | Validator  | Querying UniProt: (Glioblastoma) AND ("Not applicable based on provided context, as Glioblastoma is identified as a disease, not a drug.") AND (organism_id:9606)
+2026-02-13 22:27:59 | INFO  | Validator  | [API] UniProt | 200 | 0.97s | 0 hits
+2026-02-13 22:27:59 | WARNING | Validator  | [GRACEFUL] No UniProt match for Glioblastoma — marking as 'Review Required', scoring on literature only
+2026-02-13 22:27:59 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:27:59 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:27:59 | INFO  | Validator  | Validator agent finished
+2026-02-13 22:30:33 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:30:33 | INFO  | Scraper    | ============================================================
+2026-02-13 22:30:33 | INFO  | Scraper    | Scraper agent started
+2026-02-13 22:30:33 | INFO  | Scraper    | ============================================================
+2026-02-13 22:30:33 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 22:30:33 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-13 22:30:33 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-13 22:30:33 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-13 22:30:33 | INFO  | Scraper    | Search terms: ['Glioblastoma', 'Glioblastoma repurposing', 'Glioblastoma AND cancer']
+2026-02-13 22:30:33 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma' (max_results=50)
+2026-02-13 22:30:34 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.012s | 50 PMIDs
+2026-02-13 22:30:35 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma repurposing' (max_results=50)
+2026-02-13 22:30:36 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.946s | 50 PMIDs
+2026-02-13 22:30:36 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma AND cancer' (max_results=50)
+2026-02-13 22:30:37 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.958s | 50 PMIDs
+2026-02-13 22:30:37 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 22:30:37 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 22:30:41 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 4.04s | 109 abstracts
+2026-02-13 22:30:41 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:30:41 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:30:41 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:30:57 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:30:57 | INFO  | Indexer    | ============================================================
+2026-02-13 22:30:57 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 22:30:57 | INFO  | Indexer    | ============================================================
+2026-02-13 22:30:57 | INFO  | Indexer    | Loaded 109 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:30:57 | INFO  | Indexer    | Cleaning complete: 103 valid abstracts, 6 empty/skipped
+2026-02-13 22:30:57 | INFO  | Indexer    | Chunking complete: 103 docs → 445 chunks (size=500, overlap=50)
+2026-02-13 22:30:57 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:31:01 | INFO  | Indexer    | Building FAISS index from 445 chunks …
+2026-02-13 22:31:23 | INFO  | Indexer    | [INDEX] FAISS index built in 21.84s
+2026-02-13 22:31:23 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:31:23 | INFO  | Indexer    | ✅ Indexer verification: 445 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:31:23 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:31:23 | INFO  | Indexer    | Indexer agent finished
+2026-02-13 22:31:44 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:31:44 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:31:44 | INFO  | Reasoner   | Strategist agent started
+2026-02-13 22:31:44 | INFO  | Reasoner   | Hypothesis target: Glioblastoma + cancer
+2026-02-13 22:31:44 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:31:44 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:31:48 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:31:48 | INFO  | Reasoner   | Retrieving context for query: 'Glioblastoma cancer repurposing mechanism'
+2026-02-13 22:31:48 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-13 22:31:48 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-13 22:31:49 | INFO  | Reasoner   | Sending reasoning request for Glioblastoma -> cancer ...
+2026-02-13 22:31:58 | INFO  | Reasoner   | [REASONING] Generated hypothesis in 9.65s
+2026-02-13 22:31:58 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:31:58 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:31:58 | INFO  | Reasoner   | Strategist agent finished
+2026-02-13 22:32:00 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:32:00 | INFO  | Validator  | ============================================================
+2026-02-13 22:32:00 | INFO  | Validator  | Validator agent started
+2026-02-13 22:32:00 | INFO  | Validator  | ============================================================
+2026-02-13 22:32:00 | INFO  | Validator  | Verifying: Glioblastoma → cancer
+2026-02-13 22:32:00 | WARNING | Validator  | [GRACEFUL] No UniProt match for Glioblastoma — marking as 'Review Required', scoring on literature only
+2026-02-13 22:32:00 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:32:00 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:32:00 | INFO  | Validator  | Validator agent finished
+2026-02-13 22:36:42 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:36:42 | INFO  | Scraper    | ============================================================
+2026-02-13 22:36:42 | INFO  | Scraper    | Scraper agent started
+2026-02-13 22:36:42 | INFO  | Scraper    | ============================================================
+2026-02-13 22:36:42 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-13 22:36:42 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-13 22:36:42 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-13 22:36:42 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-13 22:36:42 | INFO  | Scraper    | Search terms: ['Glioblastoma', 'Glioblastoma repurposing', 'Glioblastoma AND cancer']
+2026-02-13 22:36:42 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma' (max_results=50)
+2026-02-13 22:36:43 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.126s | 50 PMIDs
+2026-02-13 22:36:43 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma repurposing' (max_results=50)
+2026-02-13 22:36:44 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.982s | 50 PMIDs
+2026-02-13 22:36:45 | INFO  | Scraper    | Searching PubMed: 'Glioblastoma AND cancer' (max_results=50)
+2026-02-13 22:36:46 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.07s | 50 PMIDs
+2026-02-13 22:36:46 | INFO  | Scraper    | Total unique PMIDs collected: 109
+2026-02-13 22:36:46 | INFO  | Scraper    | Fetching abstracts for 109 PMIDs …
+2026-02-13 22:36:50 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 4.442s | 109 abstracts
+2026-02-13 22:36:50 | INFO  | Scraper    | Saved 109 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:36:50 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:36:50 | INFO  | Scraper    | Scraper agent finished
+2026-02-13 22:37:14 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:37:14 | INFO  | Indexer    | ============================================================
+2026-02-13 22:37:14 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-13 22:37:14 | INFO  | Indexer    | ============================================================
+2026-02-13 22:37:14 | INFO  | Indexer    | Loaded 109 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-13 22:37:14 | INFO  | Indexer    | Cleaning complete: 103 valid abstracts, 6 empty/skipped
+2026-02-13 22:37:14 | INFO  | Indexer    | Chunking complete: 103 docs → 445 chunks (size=500, overlap=50)
+2026-02-13 22:37:14 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:37:18 | INFO  | Indexer    | Building FAISS index from 445 chunks …
+2026-02-13 22:37:41 | INFO  | Indexer    | [INDEX] FAISS index built in 23.49s
+2026-02-13 22:37:41 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:37:41 | INFO  | Indexer    | ✅ Indexer verification: 445 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:37:41 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:37:41 | INFO  | Indexer    | Indexer agent finished
+2026-02-13 22:38:04 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:38:04 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:38:04 | INFO  | Reasoner   | Strategist agent started
+2026-02-13 22:38:04 | INFO  | Reasoner   | Hypothesis target: Glioblastoma + cancer
+2026-02-13 22:38:04 | INFO  | Reasoner   | ============================================================
+2026-02-13 22:38:04 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-13 22:38:08 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-13 22:38:08 | INFO  | Reasoner   | Retrieving context for query: 'Glioblastoma cancer repurposing mechanism'
+2026-02-13 22:38:08 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-13 22:38:08 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-13 22:38:08 | INFO  | Reasoner   | Sending reasoning request for Glioblastoma -> cancer ...
+2026-02-13 22:38:28 | INFO  | Reasoner   | [REASONING] Generated hypothesis in 20.14s
+2026-02-13 22:38:28 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:38:28 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-13 22:38:28 | INFO  | Reasoner   | Strategist agent finished
+2026-02-13 22:38:30 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-13 22:38:30 | INFO  | Validator  | ============================================================
+2026-02-13 22:38:30 | INFO  | Validator  | Validator agent started
+2026-02-13 22:38:30 | INFO  | Validator  | ============================================================
+2026-02-13 22:38:30 | INFO  | Validator  | Verifying: GMT inhibitors → cancer
+2026-02-13 22:38:30 | INFO  | Validator  | Querying UniProt: (GMT inhibitors) AND ("glial-mesenchymal transition (GMT)") AND (organism_id:9606)
+2026-02-13 22:38:31 | INFO  | Validator  | [API] UniProt | 200 | 0.72s | 0 hits
+2026-02-13 22:38:31 | WARNING | Validator  | [GRACEFUL] No UniProt match for GMT inhibitors — marking as 'Review Required', scoring on literature only
+2026-02-13 22:38:31 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:38:31 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-13 22:38:31 | INFO  | Validator  | Validator agent finished
+2026-02-14 17:12:10 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:12:10 | INFO  | Scraper    | ============================================================
+2026-02-14 17:12:10 | INFO  | Scraper    | Scraper agent started
+2026-02-14 17:12:10 | INFO  | Scraper    | ============================================================
+2026-02-14 17:12:10 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-14 17:12:10 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-14 17:12:10 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-14 17:12:10 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-14 17:12:10 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-14 17:12:10 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-14 17:12:11 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.139s | 50 PMIDs
+2026-02-14 17:12:12 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-14 17:12:13 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.945s | 50 PMIDs
+2026-02-14 17:12:13 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-14 17:12:14 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.132s | 50 PMIDs
+2026-02-14 17:12:14 | INFO  | Scraper    | Total unique PMIDs collected: 146
+2026-02-14 17:12:14 | INFO  | Scraper    | Fetching abstracts for 146 PMIDs …
+2026-02-14 17:12:17 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 2.861s | 146 abstracts
+2026-02-14 17:12:17 | INFO  | Scraper    | Saved 146 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:12:17 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:12:17 | INFO  | Scraper    | Scraper agent finished
+2026-02-14 17:12:59 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:12:59 | INFO  | Indexer    | ============================================================
+2026-02-14 17:12:59 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-14 17:12:59 | INFO  | Indexer    | ============================================================
+2026-02-14 17:12:59 | INFO  | Indexer    | Loaded 146 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:12:59 | INFO  | Indexer    | Cleaning complete: 141 valid abstracts, 5 empty/skipped
+2026-02-14 17:12:59 | INFO  | Indexer    | Chunking complete: 141 docs → 683 chunks (size=500, overlap=50)
+2026-02-14 17:12:59 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:13:03 | INFO  | Indexer    | Building FAISS index from 683 chunks …
+2026-02-14 17:13:25 | INFO  | Indexer    | [INDEX] FAISS index built in 22.4s
+2026-02-14 17:13:25 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:13:25 | INFO  | Indexer    | ✅ Indexer verification: 683 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:13:25 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:13:25 | INFO  | Indexer    | Indexer agent finished
+2026-02-14 17:13:38 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:13:38 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:13:38 | INFO  | Reasoner   | Strategist agent started
+2026-02-14 17:13:38 | INFO  | Reasoner   | Hypothesis target: Alzheimer's + disease
+2026-02-14 17:13:38 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:13:38 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:13:42 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:13:42 | INFO  | Reasoner   | Retrieving context for query: 'Alzheimer's disease repurposing mechanism'
+2026-02-14 17:13:42 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-14 17:13:42 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-14 17:13:42 | INFO  | Reasoner   | Sending reasoning request for Alzheimer's -> disease ...
+2026-02-14 17:13:54 | INFO  | Reasoner   | [REASONING] Generated hypothesis in 11.75s
+2026-02-14 17:13:54 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:13:54 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:13:54 | INFO  | Reasoner   | Strategist agent finished
+2026-02-14 17:13:55 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:13:55 | INFO  | Validator  | ============================================================
+2026-02-14 17:13:55 | INFO  | Validator  | Validator agent started
+2026-02-14 17:13:55 | INFO  | Validator  | ============================================================
+2026-02-14 17:13:55 | INFO  | Validator  | Verifying: PDE5Is → Alzheimer's disease
+2026-02-14 17:13:55 | WARNING | Validator  | [GRACEFUL] No UniProt match for PDE5Is — marking as 'Review Required', scoring on literature only
+2026-02-14 17:13:55 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:13:55 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:13:55 | INFO  | Validator  | Validator agent finished
+2026-02-14 17:21:05 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:21:05 | INFO  | Scraper    | ============================================================
+2026-02-14 17:21:05 | INFO  | Scraper    | Scraper agent started
+2026-02-14 17:21:05 | INFO  | Scraper    | ============================================================
+2026-02-14 17:21:05 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-14 17:21:05 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-14 17:21:05 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-14 17:21:05 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-14 17:21:05 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-14 17:21:05 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-14 17:21:06 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.102s | 50 PMIDs
+2026-02-14 17:21:06 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-14 17:21:07 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.956s | 50 PMIDs
+2026-02-14 17:21:07 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-14 17:21:09 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.165s | 50 PMIDs
+2026-02-14 17:21:09 | INFO  | Scraper    | Total unique PMIDs collected: 146
+2026-02-14 17:21:09 | INFO  | Scraper    | Fetching abstracts for 146 PMIDs …
+2026-02-14 17:21:12 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 3.257s | 146 abstracts
+2026-02-14 17:21:12 | INFO  | Scraper    | Saved 146 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:21:12 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:21:12 | INFO  | Scraper    | Scraper agent finished
+2026-02-14 17:21:27 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:21:27 | INFO  | Indexer    | ============================================================
+2026-02-14 17:21:27 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-14 17:21:27 | INFO  | Indexer    | ============================================================
+2026-02-14 17:21:27 | INFO  | Indexer    | Loaded 146 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:21:27 | INFO  | Indexer    | Cleaning complete: 141 valid abstracts, 5 empty/skipped
+2026-02-14 17:21:27 | INFO  | Indexer    | Chunking complete: 141 docs → 683 chunks (size=500, overlap=50)
+2026-02-14 17:21:27 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:21:31 | INFO  | Indexer    | Building FAISS index from 683 chunks …
+2026-02-14 17:21:57 | INFO  | Indexer    | [INDEX] FAISS index built in 26.07s
+2026-02-14 17:21:57 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:21:57 | INFO  | Indexer    | ✅ Indexer verification: 683 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:21:57 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:21:57 | INFO  | Indexer    | Indexer agent finished
+2026-02-14 17:22:11 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:22:11 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:22:11 | INFO  | Reasoner   | Strategist agent started
+2026-02-14 17:22:11 | INFO  | Reasoner   | Hypothesis target: Alzheimer's + disease
+2026-02-14 17:22:11 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:22:11 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:22:15 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:22:15 | INFO  | Reasoner   | Retrieving context for query: 'Alzheimer's disease repurposing mechanism'
+2026-02-14 17:22:15 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-14 17:22:15 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-14 17:22:15 | INFO  | Reasoner   | Sending reasoning request for Alzheimer's -> disease ...
+2026-02-14 17:22:24 | INFO  | Reasoner   | [REASONING] Generated 1 hypotheses in 8.77s
+2026-02-14 17:22:24 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:22:24 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:22:24 | INFO  | Reasoner   | Strategist agent finished
+2026-02-14 17:22:25 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:22:25 | INFO  | Validator  | ============================================================
+2026-02-14 17:22:25 | INFO  | Validator  | Validator agent started
+2026-02-14 17:22:25 | INFO  | Validator  | ============================================================
+2026-02-14 17:22:25 | INFO  | Validator  | Verifying: PDE5Is → Alzheimer's disease
+2026-02-14 17:22:25 | INFO  | Validator  | Querying UniProt: (PDE5Is) AND ("PDE5 inhibition") AND (organism_id:9606)
+2026-02-14 17:22:26 | INFO  | Validator  | [API] UniProt | 200 | 0.87s | 0 hits
+2026-02-14 17:22:26 | WARNING | Validator  | [GRACEFUL] No UniProt match for PDE5Is — marking as 'Review Required', scoring on literature only
+2026-02-14 17:22:26 | INFO  | Validator  | Saved 1 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:22:26 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:22:26 | INFO  | Validator  | Validator agent finished
+2026-02-14 17:27:23 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:27:23 | INFO  | Scraper    | ============================================================
+2026-02-14 17:27:23 | INFO  | Scraper    | Scraper agent started
+2026-02-14 17:27:23 | INFO  | Scraper    | ============================================================
+2026-02-14 17:27:23 | INFO  | Scraper    | [CLEAN] Deleted raw_data.json
+2026-02-14 17:27:23 | INFO  | Scraper    | [CLEAN] Deleted hypotheses.json
+2026-02-14 17:27:23 | INFO  | Scraper    | [CLEAN] Deleted validated_results.json
+2026-02-14 17:27:23 | INFO  | Scraper    | [CLEAN] Deleted directory vector_db/
+2026-02-14 17:27:23 | INFO  | Scraper    | Search terms: ["Alzheimer's disease", "Alzheimer's AND disease AND repurposing", "Alzheimer's AND cancer"]
+2026-02-14 17:27:23 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's disease' (max_results=50)
+2026-02-14 17:27:25 | INFO  | Scraper    | [API] PubMed esearch | 200 | 1.082s | 50 PMIDs
+2026-02-14 17:27:25 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND disease AND repurposing' (max_results=50)
+2026-02-14 17:27:26 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.943s | 50 PMIDs
+2026-02-14 17:27:26 | INFO  | Scraper    | Searching PubMed: 'Alzheimer's AND cancer' (max_results=50)
+2026-02-14 17:27:27 | INFO  | Scraper    | [API] PubMed esearch | 200 | 0.985s | 50 PMIDs
+2026-02-14 17:27:27 | INFO  | Scraper    | Total unique PMIDs collected: 146
+2026-02-14 17:27:27 | INFO  | Scraper    | Fetching abstracts for 146 PMIDs …
+2026-02-14 17:27:32 | INFO  | Scraper    | [API] PubMed efetch  | 200 | 4.927s | 146 abstracts
+2026-02-14 17:27:32 | INFO  | Scraper    | Saved 146 abstracts → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:27:32 | INFO  | Scraper    | [HANDOFF] Scraper → Indexer | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:27:32 | INFO  | Scraper    | Scraper agent finished
+2026-02-14 17:27:43 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:27:43 | INFO  | Indexer    | ============================================================
+2026-02-14 17:27:43 | INFO  | Indexer    | Indexer agent (The Architect) started
+2026-02-14 17:27:43 | INFO  | Indexer    | ============================================================
+2026-02-14 17:27:43 | INFO  | Indexer    | Loaded 146 entries from C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\data\raw_data.json
+2026-02-14 17:27:43 | INFO  | Indexer    | Cleaning complete: 140 valid abstracts, 6 empty/skipped
+2026-02-14 17:27:43 | INFO  | Indexer    | Chunking complete: 140 docs → 677 chunks (size=500, overlap=50)
+2026-02-14 17:27:43 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:27:46 | INFO  | Indexer    | Building FAISS index from 677 chunks …
+2026-02-14 17:28:08 | INFO  | Indexer    | [INDEX] FAISS index built in 21.84s
+2026-02-14 17:28:08 | INFO  | Indexer    | [INDEX] Saved FAISS index → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:28:08 | INFO  | Indexer    | ✅ Indexer verification: 677 chunks successfully indexed into C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:28:08 | INFO  | Indexer    | [HANDOFF] Indexer → Reasoner | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:28:08 | INFO  | Indexer    | Indexer agent finished
+2026-02-14 17:28:20 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:28:20 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:28:20 | INFO  | Reasoner   | Strategist agent started
+2026-02-14 17:28:20 | INFO  | Reasoner   | Hypothesis target: Alzheimer's + disease
+2026-02-14 17:28:20 | INFO  | Reasoner   | ============================================================
+2026-02-14 17:28:20 | INFO  | Indexer    | Initialising local embedding model: all-MiniLM-L6-v2
+2026-02-14 17:28:23 | INFO  | Indexer    | [INDEX] Loaded FAISS index ← C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\vector_db
+2026-02-14 17:28:23 | INFO  | Reasoner   | Retrieving context for query: 'Alzheimer's disease repurposing mechanism'
+2026-02-14 17:28:23 | INFO  | Reasoner   | [RETRIEVAL] Found 10 relevant chunks
+2026-02-14 17:28:23 | INFO  | Reasoner   | Initialising LLM: gemini-2.5-flash (thinking_budget=8192)
+2026-02-14 17:28:24 | INFO  | Reasoner   | Sending reasoning request for Alzheimer's -> disease ...
+2026-02-14 17:28:58 | INFO  | Reasoner   | [REASONING] Generated 4 hypotheses in 34.87s
+2026-02-14 17:28:58 | INFO  | Reasoner   | Saved hypothesis to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:28:58 | INFO  | Reasoner   | [HANDOFF] Strategist → Validator | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\hypotheses.json
+2026-02-14 17:28:58 | INFO  | Reasoner   | Strategist agent finished
+2026-02-14 17:29:00 | INFO  | System     | Logging system initialised — output → C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\logs\system.log
+2026-02-14 17:29:00 | INFO  | Validator  | ============================================================
+2026-02-14 17:29:00 | INFO  | Validator  | Validator agent started
+2026-02-14 17:29:00 | INFO  | Validator  | ============================================================
+2026-02-14 17:29:00 | INFO  | Validator  | Verifying: PDE5Is → Alzheimer's disease
+2026-02-14 17:29:00 | INFO  | Validator  | Querying UniProt: (PDE5Is) AND ("Disease modification") AND (organism_id:9606)
+2026-02-14 17:29:00 | INFO  | Validator  | [API] UniProt | 200 | 0.78s | 0 hits
+2026-02-14 17:29:00 | WARNING | Validator  | [GRACEFUL] No UniProt match for PDE5Is — marking as 'Review Required', scoring on literature only
+2026-02-14 17:29:00 | INFO  | Validator  | Verifying: Antioxidants → Alzheimer's disease
+2026-02-14 17:29:00 | INFO  | Validator  | Querying UniProt: (Antioxidants) AND ("Oxidative stress reduction") AND (organism_id:9606)
+2026-02-14 17:29:01 | INFO  | Validator  | [API] UniProt | 200 | 0.81s | 0 hits
+2026-02-14 17:29:01 | WARNING | Validator  | [GRACEFUL] No UniProt match for Antioxidants — marking as 'Review Required', scoring on literature only
+2026-02-14 17:29:01 | INFO  | Validator  | Verifying: Anti-inflammatories → Alzheimer's disease
+2026-02-14 17:29:01 | INFO  | Validator  | Querying UniProt: (Anti-inflammatories) AND ("Neuroinflammation modulation") AND (organism_id:9606)
+2026-02-14 17:29:02 | INFO  | Validator  | [API] UniProt | 200 | 0.72s | 0 hits
+2026-02-14 17:29:02 | WARNING | Validator  | [GRACEFUL] No UniProt match for Anti-inflammatories — marking as 'Review Required', scoring on literature only
+2026-02-14 17:29:02 | INFO  | Validator  | Verifying: Metabolic Modulators → Alzheimer's disease
+2026-02-14 17:29:02 | INFO  | Validator  | Querying UniProt: (Metabolic Modulators) AND ("Immunometabolism regulation" OR "Insulin sensitivity") AND (organism_id:9606)
+2026-02-14 17:29:03 | INFO  | Validator  | [API] UniProt | 200 | 0.95s | 1 hits
+2026-02-14 17:29:03 | INFO  | Validator  | Saved 4 validated results to C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:29:03 | INFO  | Validator  | [HANDOFF] Validator → Interface | payload=C:\Users\samee\OneDrive\Desktop\Multi-Agent Literature Miner for Drug Repurposing\validated_results.json
+2026-02-14 17:29:03 | INFO  | Validator  | Validator agent finished
